@@ -4,116 +4,418 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная - Yest.uz</title>
+    <link rel="icon" href="./assets/title_icon.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     
     <header class="header">
-        <div class="logo">
-            <a style="font-size: 30px; text-decoration: none; color: #5FB707;" href="#">YEST.UZ</a>
-            <!-- <a href="#"><img src="https://beeyor.tj/wp-content/uploads/2020/01/new_logo.svg" ></a> -->
-        </div>
-        <div class="search">
-            <i class="fas fa-search"></i>
-            <input type="text" placeholder="Быстрый поиск">
-        </div>
-        <div class="contacts">
-            <a href="tel: 9900"><img src="https://beeyor.tj/wp-content/uploads/2019/11/phone.svg">9900</a>
-            <button class="btn">Вход/Регис.</button>
+        <div class="header_wrapper">
+            <div class="logo">
+                <a style="font-size: 30px; text-decoration: none; color: #5FB707;" href="#">YEST.UZ</a>
+                <!-- <a href="#"><img src="https://beeyor.tj/wp-content/uploads/2020/01/new_logo.svg" ></a> -->
+            </div>
+            <div class="search">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Быстрый поиск">
+            </div>
+            <div class="contacts">
+                <a href="tel: 9900"><img src="https://beeyor.tj/wp-content/uploads/2019/11/phone.svg">9900</a>
+                <button class="btn">Вход/Регис.</button>
+            </div>
         </div>
     </header>
 
-    <div class="catalog">
-        <h3>Catalog</h3>
-        <div class="catalog_item">
-                <i class="far fa-bookmark"></i>
-                <a href="#">Овощи и фрукты</a>
-            <i class="fas fa-angle-right"></i>
-        </div>
-
-        <div class="catalog_item">
-            <i class="far fa-bookmark"></i>
-            <a href="#">Вода/Напитки</a>
-        <i class="fas fa-angle-right"></i>
-        </div>
-        <div class="catalog_item">
-            <i class="far fa-bookmark"></i>
-            <a href="#">Бакалея</a>
-        <i class="fas fa-angle-right"></i>
-        </div>
-        <div class="catalog_item">
-            <i class="far fa-bookmark"></i>
-            <a href="#">Чай/Кофе</a>
-        <i class="fas fa-angle-right"></i>
-        </div>
-        <div class="catalog_item">
-            <i class="far fa-bookmark"></i>
-            <a href="#">Торты и сладости</a>
-        <i class="fas fa-angle-right"></i>
-        </div>
-        <div class="catalog_item">
-            <i class="far fa-bookmark"></i>
-            <a href="#">Готовые блюда</a>
-        <i class="fas fa-angle-right"></i>
-        </div>
-        <div class="catalog_item">
-            <i class="far fa-bookmark"></i>
-            <a href="#">Рецепты</a>
-        <i class="fas fa-angle-right"></i>
-        </div>
-    </div>
-
     <div class="container">
-        <div class="line">
-            <img class="img_one" src="https://beeyor.tj/wp-content/uploads/2019/11/sayt-beeyor.tj_.svg">
-            <img class="img_two" src="https://beeyor.tj/wp-content/uploads/2019/12/beeDelivery-1.svg">
-            <img class="img_three" src="https://beeyor.tj/wp-content/uploads/2019/12/lineRound.svg">
-        </div>
-
-        <div id="res" class="restaurant">
-            <img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-4.svg">
-            <div class="res_text">
-                <a href="#">Рестораны</a>
+        <div class="leftarrow">
+            <div id="res" class="res">
+                <a href=""><img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-4.svg"></a>
+                <div class="res-text">
+                    <a href="#">Рестораны</a>
+                </div>
+            </div>
+    
+            <div  id="flow" class="flow">
+                <a href=""><img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-3.svg"></a>
+                <div class="flow-text">
+                    <a href="#">Цветы</a>
+                </div>
             </div>
         </div>
 
-        <div  id="flow" class="flower">
-            <img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-3.svg">
-            <div class="flow-text">
-                <a href="#">Цветы</a>
+        <div class="center">
+            <div class="top">
+                <img src=" https://beeyor.tj/wp-content/uploads/2019/11/sayt-beeyor.tj_.svg" />
+            </div>
+
+            <div class="bee_img">
+                <img src="https://beeyor.tj/wp-content/uploads/2019/12/beeDelivery-1.svg">
+            </div>
+
+            <div class="line">
+                <img src="./assets/line.png">
+            </div>
+
+            <div id="present" class="present">
+                <a href=""><img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-4.svg"></a>
+                <div class="present-text">
+                    <a href="#">Подарки</a>
+                </div>
+            </div>
+    
+            <div  id="shashlik" class="shashlik">
+                <a href=""><img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-3.svg"></a>
+                <div class="shashlik-text">
+                    <a href="#">Шашлик уз</a>
+                </div>
             </div>
         </div>
 
-        <div id="shopping"  class="shop">
-            <img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-1.svg">
-            <div class="shop-text">
-                <a href="#">Магазины</a>
+        <div class="rightarrow">
+            <div id="shopping"  class="shop">
+                <a href=""><img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-1.svg"></a>
+                <div class="shop-text">
+                    <a href="#">Магазины</a>
+                </div>
             </div>
+    
+            <div id="cour"  class="courier">
+                <a href=""><img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-2.svg"></a>
+                <div class="courier-text">
+                    <a href="#">Курьеры</a>
+                </div>
+              </div>
         </div>
 
-        <div id="cour"  class="courier">
-            <img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-2.svg">
-            <div class="courier-text">
-                <a href="#">Курьеры</a>
-            </div>
-        </div>
-        
     </div>
 
-    <div class="images">
-        <img src="https://media.express24.uz/r/480/300/17b533e2b82.jpg">
-        <img src="https://media.express24.uz/r/480/300/17b533dcab1.jpg">
-        <img src="https://media.express24.uz/r/480/300/17b5322310d.jpg">
-        <img src="https://media.express24.uz/r/480/300/17b53215426.jpg">
-        <img src="https://media.express24.uz/r/480/300/17b5319e632.jpg">
-        <img src="https://media.express24.uz/r/480/300/17bcf5c260d.jpg">
-        <img src="https://media.express24.uz/r/480/300/17bcf58fec6.jpg">
-        <img src="https://media.express24.uz/r/480/300/17b5322d670.jpg">
-        <img src="https://media.express24.uz/r/480/300/17b533e2b82.jpg">
-        <img src="https://media.express24.uz/r/480/300/17bbece7064.jpg">
+    <div class="wrapper">
+        <div class="text">
+            <h2 class="wrapper_title">Самое популярное в вашем <span style="color: #5FB707;">городе</span></h2>
+            <p class="wrapper_suptitle">Ознакомьтесь с самыми популярными ресторанами – мы доставим вам все, что пожелаете</p>
+        </div>
+
+        <div class="wrapper_item">
+            <div class="products">
+                <div class="img">
+                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
+                </div>
+                <div class="products_text">
+                    <p>Еда | Fast-food</p>
+                    <div class="products_partner">
+                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
+                        <h3>SFC</h3>
+                    </div>
+                </div>
+            </div> <!-- Products -->
+            <div class="products">
+                <div class="img">
+                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
+                </div>
+                <div class="products_text">
+                    <p>Еда | Fast-food</p>
+                    <div class="products_partner">
+                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
+                        <h3>SFC</h3>
+                    </div>
+                </div>
+            </div> <!-- Products -->
+            <div class="products">
+                <div class="img">
+                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
+                </div>
+                <div class="products_text">
+                    <p>Еда | Fast-food</p>
+                    <div class="products_partner">
+                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
+                        <h3>SFC</h3>
+                    </div>
+                </div>
+            </div> <!-- Products -->
+            <div class="products">
+                <div class="img">
+                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
+                </div>
+                <div class="products_text">
+                    <p>Еда | Fast-food</p>
+                    <div class="products_partner">
+                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
+                        <h3>SFC</h3>
+                    </div>
+                </div>
+            </div> <!-- Products -->
+            <div class="products">
+                <div class="img">
+                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
+                </div>
+                <div class="products_text">
+                    <p>Еда | Fast-food</p>
+                    <div class="products_partner">
+                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
+                        <h3>SFC</h3>
+                    </div>
+                </div>
+            </div> <!-- Products -->
+            <div class="products">
+                <div class="img">
+                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
+                </div>
+                <div class="products_text">
+                    <p>Еда | Fast-food</p>
+                    <div class="products_partner">
+                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
+                        <h3>SFC</h3>
+                    </div>
+                </div>
+            </div> <!-- Products -->
+            <div class="products">
+                <div class="img">
+                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
+                </div>
+                <div class="products_text">
+                    <p>Еда | Fast-food</p>
+                    <div class="products_partner">
+                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
+                        <h3>SFC</h3>
+                    </div>
+                </div>
+            </div> <!-- Products -->
+            <div class="products">
+                <div class="img">
+                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
+                </div>
+                <div class="products_text">
+                    <p>Еда | Fast-food</p>
+                    <div class="products_partner">
+                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
+                        <h3>SFC</h3>
+                    </div>
+                </div>
+            </div> <!-- Products -->
+            <div class="products">
+                <div class="img">
+                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
+                </div>
+                <div class="products_text">
+                    <p>Еда | Fast-food</p>
+                    <div class="products_partner">
+                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
+                        <h3>SFC</h3>
+                    </div>
+                </div>
+            </div> <!-- Products -->
+            <div class="products">
+                <div class="img">
+                    <a href="restaurant.html" ><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
+                </div>
+                <div class="products_text">
+                    <p>Еда | Fast-food</p>
+                    <div class="products_partner">
+                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
+                        <h3>SFC</h3>
+                    </div>
+                </div>
+            </div> <!-- Products -->
+            <div class="products">
+                <div class="img">
+                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
+                </div>
+                <div class="products_text">
+                    <p>Еда | Fast-food</p>
+                    <div class="products_partner">
+                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
+                        <h3>SFC</h3>
+                    </div>
+                </div>
+            </div> <!-- Products -->
+            <div class="products">
+                <div class="img">
+                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
+                </div>
+                <div class="products_text">
+                    <p>Еда | Fast-food</p>
+                    <div class="products_partner">
+                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
+                        <h3>SFC</h3>
+                    </div>
+                </div>
+            </div> <!-- Products -->
+            <div class="products">
+                <div class="img">
+                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
+                </div>
+                <div class="products_text">
+                    <p>Еда | Fast-food</p>
+                    <div class="products_partner">
+                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
+                        <h3>SFC</h3>
+                    </div>
+                </div>
+            </div> <!-- Products -->
+            <div class="products">
+                <div class="img">
+                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
+                </div>
+                <div class="products_text">
+                    <p>Еда | Fast-food</p>
+                    <div class="products_partner">
+                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
+                        <h3>SFC</h3>
+                    </div>
+                </div>
+            </div> <!-- Products -->
+            <div class="products">
+                <div class="img">
+                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
+                </div>
+                <div class="products_text">
+                    <p>Еда | Fast-food</p>
+                    <div class="products_partner">
+                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
+                        <h3>SFC</h3>
+                    </div>
+                </div>
+            </div> <!-- Products -->
+
+            
+        </div> <!-- Wrapper Item -->
+        <div class="yest_programm">
+            <div class="play_store">
+                <h2 class="playstore_title">Возьми Yest.uz с собой</h2>
+                <p class="playstore_text">заказывать через приложение еще проще!</p>
+                <div class="playstore_img">
+                    <div class="prog_icons">
+                        <a class="playmarket" href=""><img src="https://beeyor.tj/wp-content/uploads/2019/11/google-play.svg" /></a>
+                    <a class="appstore" href=""><img src="https://beeyor.tj/wp-content/uploads/2019/11/app-store.svg" /></a>
+                    </div>
+                    <div class="qrcode">
+                        <img src="https://beeyor.tj/wp-content/uploads/2020/11/qr-beeyor.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="bee_tel">
+                <img src=" https://beeyor.tj/wp-content/uploads/2020/11/application.png" alt="">
+            </div>
+        </div>
+    </div> <!-- Wrapper -->
+
+
+    <!-- Partners -->
+    <br><br><br><br>
+    <h2 class="wrapper_title">Наши <span style="color: #5FB707; margin-top: 50px;">партнеры</span></h2>
+    <div id="carousel" class="owl-carousel owl-theme">
+        <div class="item">
+            <img src="https://beeyor.tj/wp-content/uploads/2020/06/logo-hotdogger-drugoj-razmer.svg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://beeyor.tj/wp-content/uploads/2021/05/logo-sait-efendi.svg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://beeyor.tj/wp-content/uploads/2020/06/umar.svg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://beeyor.tj/wp-content/uploads/2021/04/chitir-chiken.svg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://beeyor.tj/wp-content/uploads/2020/11/mimino.svg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://beeyor.tj/wp-content/uploads/2020/01/merve-3.svg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://beeyor.tj/wp-content/uploads/2020/05/kaya.svg" alt="">
+        </div>
+
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="./rotate.js"></script>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="footer_wrapper">
+            <div class="footer_top">
+                <div class="footer_info">
+                    <div class="footer_logo">
+                        <a href="#">YEST.UZ</a>
+                    </div>
+                    <p class="gray">Служба доставки в городе Самарканд. Доставим за считанные минуты</p>
+                </div>
+
+                <div class="footer_courier">
+                    <h4>Присоединяйся к нам</h4>
+                    <a class="gray" href="">Стать курьером</a>
+                    <a class="gray" href="">Стать партнером</a>
+                    <a class="gray" href="">Корпоративные решения</a>
+                </div>
+
+                <div class="footer_company">
+                    <h4>О Компании</h4>
+                    <a class="gray" href="">О нас</a>
+                    <a class="gray" href="">Контакты</a>
+                    <a class="gray" href="">Способы оплаты</a>
+                </div>
+
+                <div class="footer_benefits">
+                    <h4>Наши преимущества</h4>
+                    <a class="gray" href="">Бонусы</a>
+                    <a class="gray" href="">Не платите лишнее</a>
+                    <a class="gray" href="">Заказы поступают прямо в ресторан</a>
+                    
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="author">
+                    <p class="gray">&copy; 2021 Yest.uz Все права защищены.</p>
+                </div>
+                <div class="social_icons">
+                    <a target="_blank" href="https://gmail.com/"><i class="fas fa-envelope"></i></a>
+                    <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <img class="Top_icon" src="https://beeyor.tj/wp-content/uploads/2020/01/back-to-top.svg">
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Jquery -->
+    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: false,
+                dots: false,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: false,
+                responsive: {
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items: 7
+                }
+            }
+        })
+    </script>
+
 </body>
 </html>
+
+
+
+
+
