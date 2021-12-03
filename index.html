@@ -16,7 +16,9 @@
     <header class="header">
         <div class="header_wrapper">
             <div class="logo">
-                <a style="font-size: 30px; text-decoration: none; color: #5FB707;" href="#">YEST.UZ</a>
+                <a style="font-size: 30px; text-decoration: none; color: #5FB707;" href="#">
+                    <img src="./assets/Logo.png" alt="Yest Logo">
+                </a>
                 <!-- <a href="#"><img src="https://beeyor.tj/wp-content/uploads/2020/01/new_logo.svg" ></a> -->
             </div>
             <div class="search">
@@ -24,29 +26,43 @@
                 <input type="text" placeholder="Быстрый поиск">
             </div>
             <div class="contacts">
-                <a href="tel: 9900"><img src="https://beeyor.tj/wp-content/uploads/2019/11/phone.svg">9900</a>
-                <button class="btn">Вход/Регис.</button>
+                <i id="basketIcon" class="fas fa-shopping-cart"></i>
+                <a href="tel: +998 33 715 38 38 ">
+                    <i class="fas fa-phone-alt"></i>
+                </a>
+                <button class="btn">Вход / Регис.</button>
             </div>
+
+        </div>
+        <div class="links">
+            <a id="link" href="">Магазины</a>
+            <a id="link" href="">Рестораны</a>
+            <a id="link" href="">Цветы</a>
+            <a id="link" href="">Подарочное</a>
+            <a id="link" href="">Пожертвование</a>
+            <a id="link" href="">Курьеры</a>
         </div>
     </header>
 
     <div class="container">
-        <div class="leftarrow">
-            <div id="res" class="res">
-                <a href=""><img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-4.svg"></a>
+        <div class="leftarrow">    
+             <div  id="res" class="res">
+                <div class="item">
+                    <a href=""><img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-1.svg"></a>
+                </div>
                 <div class="res-text">
-                    <a href="#">Рестораны</a>
+                    <a href="#">Магазины</a>
                 </div>
-            </div>
-    
+            </div> <!-- Shashlik Uz -->
             <div  id="flow" class="flow">
-                <a href=""><img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-3.svg"></a>
-                <div class="flow-text">
-                    <a href="#">Цветы</a>
+                <div class="item">
+                    <a href=""><img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-1.svg"></a>
                 </div>
-            </div>
+                <div class="flow-text">
+                    <a href="#">Ресторан</a>
+                </div>
+            </div> <!-- Flower -->
         </div>
-
         <div class="center">
             <div class="top">
                 <img src=" https://beeyor.tj/wp-content/uploads/2019/11/sayt-beeyor.tj_.svg" />
@@ -61,34 +77,42 @@
             </div>
 
             <div id="present" class="present">
-                <a href=""><img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-4.svg"></a>
+                <div class="item">
+                    <a href=""><img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-1.svg"></a>
+                </div>
                 <div class="present-text">
-                    <a href="#">Подарки</a>
+                    <a href="#">Цветы</a>
                 </div>
             </div>
     
             <div  id="shashlik" class="shashlik">
-                <a href=""><img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-3.svg"></a>
-                <div class="shashlik-text">
-                    <a href="#">Шашлик уз</a>
+                <div class="item">
+                    <a href=""><img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-1.svg"></a>
                 </div>
-            </div>
+                <div class="shashlik-text">
+                    <a href="#">Подарочное</a>
+                </div>
+            </div> <!-- Shashlik Uz -->
         </div>
 
         <div class="rightarrow">
             <div id="shopping"  class="shop">
-                <a href=""><img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-1.svg"></a>
-                <div class="shop-text">
-                    <a href="#">Магазины</a>
+                <div class="item">
+                    <a href=""><img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-1.svg"></a>
                 </div>
-            </div>
+                <div class="shop-text">
+                    <a href="#">Пожертвовать</a>
+                </div>
+            </div> <!-- Shop -->
     
             <div id="cour"  class="courier">
-                <a href=""><img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-2.svg"></a>
+                <div class="item">
+                    <a href=""><img src="https://beeyor.tj/wp-content/uploads/2019/11/icon-1.svg"></a>
+                </div>
                 <div class="courier-text">
                     <a href="#">Курьеры</a>
                 </div>
-              </div>
+            </div>  <!-- Courier -->
         </div>
 
     </div>
@@ -100,188 +124,150 @@
         </div>
 
         <div class="wrapper_item">
-            <div class="products">
-                <div class="img">
-                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
-                </div>
-                <div class="products_text">
-                    <p>Еда | Fast-food</p>
-                    <div class="products_partner">
-                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
-                        <h3>SFC</h3>
-                    </div>
-                </div>
-            </div> <!-- Products -->
-            <div class="products">
-                <div class="img">
-                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
-                </div>
-                <div class="products_text">
-                    <p>Еда | Fast-food</p>
-                    <div class="products_partner">
-                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
-                        <h3>SFC</h3>
-                    </div>
-                </div>
-            </div> <!-- Products -->
-            <div class="products">
-                <div class="img">
-                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
-                </div>
-                <div class="products_text">
-                    <p>Еда | Fast-food</p>
-                    <div class="products_partner">
-                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
-                        <h3>SFC</h3>
-                    </div>
-                </div>
-            </div> <!-- Products -->
-            <div class="products">
-                <div class="img">
-                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
-                </div>
-                <div class="products_text">
-                    <p>Еда | Fast-food</p>
-                    <div class="products_partner">
-                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
-                        <h3>SFC</h3>
-                    </div>
-                </div>
-            </div> <!-- Products -->
-            <div class="products">
-                <div class="img">
-                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
-                </div>
-                <div class="products_text">
-                    <p>Еда | Fast-food</p>
-                    <div class="products_partner">
-                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
-                        <h3>SFC</h3>
-                    </div>
-                </div>
-            </div> <!-- Products -->
-            <div class="products">
-                <div class="img">
-                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
-                </div>
-                <div class="products_text">
-                    <p>Еда | Fast-food</p>
-                    <div class="products_partner">
-                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
-                        <h3>SFC</h3>
-                    </div>
-                </div>
-            </div> <!-- Products -->
-            <div class="products">
-                <div class="img">
-                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
-                </div>
-                <div class="products_text">
-                    <p>Еда | Fast-food</p>
-                    <div class="products_partner">
-                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
-                        <h3>SFC</h3>
-                    </div>
-                </div>
-            </div> <!-- Products -->
-            <div class="products">
-                <div class="img">
-                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
-                </div>
-                <div class="products_text">
-                    <p>Еда | Fast-food</p>
-                    <div class="products_partner">
-                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
-                        <h3>SFC</h3>
-                    </div>
-                </div>
-            </div> <!-- Products -->
-            <div class="products">
-                <div class="img">
-                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
-                </div>
-                <div class="products_text">
-                    <p>Еда | Fast-food</p>
-                    <div class="products_partner">
-                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
-                        <h3>SFC</h3>
-                    </div>
-                </div>
-            </div> <!-- Products -->
-            <div class="products">
-                <div class="img">
+            <div class="card">
+                <div class="img" style="position: relative;">
                     <a href="restaurant.html" ><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
-                </div>
-                <div class="products_text">
-                    <p>Еда | Fast-food</p>
-                    <div class="products_partner">
-                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
-                        <h3>SFC</h3>
+                    <div class="logo_img">
+                        <img src="http://212.193.51.94/media/Shashlikuz_kfLQgcU.jpg">
                     </div>
                 </div>
-            </div> <!-- Products -->
-            <div class="products">
-                <div class="img">
-                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
-                </div>
-                <div class="products_text">
+                <div class="card_text">
                     <p>Еда | Fast-food</p>
-                    <div class="products_partner">
-                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
-                        <h3>SFC</h3>
+                    <h5 class="card_title" style="margin-left: 15px;">Shashlik Uz</h5>
+                    <div class="card_footer">
+                        <i class="far fa-star"></i><span style="margin-left: 7px;">4.4 (500+)</span>
+                        <div class="card_price">
+                            <div class="delivery" >
+                                <i class="fa fa-truck"></i>
+                                <h5>10 000 сум</h5>
+                            </div>
+                            <div class="discount">
+                                <h5 class="price">15 000 сум</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div> <!-- Products -->
-            <div class="products">
-                <div class="img">
-                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
-                </div>
-                <div class="products_text">
-                    <p>Еда | Fast-food</p>
-                    <div class="products_partner">
-                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
-                        <h3>SFC</h3>
+            </div> <!-- Card -->
+            <div class="card">
+                <div class="img" style="position: relative;">
+                    <a href="restaurant.html" ><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
+                    <div class="logo_img">
+                        <img src="http://212.193.51.94/media/Shashlikuz_kfLQgcU.jpg">
                     </div>
                 </div>
-            </div> <!-- Products -->
-            <div class="products">
-                <div class="img">
-                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
-                </div>
-                <div class="products_text">
+                <div class="card_text">
                     <p>Еда | Fast-food</p>
-                    <div class="products_partner">
-                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
-                        <h3>SFC</h3>
+                    <h5 class="card_title" style="margin-left: 15px;">Shashlik Uz</h5>
+                    <div class="card_footer">
+                        <i class="far fa-star"></i><span style="margin-left: 7px;">4.4 (500+)</span>
+                        <div class="card_price">
+                            <div class="delivery" >
+                                <i class="fa fa-truck"></i>
+                                <h5>10 000 сум</h5>
+                            </div>
+                            <div class="discount">
+                                <h5 class="price">15 000 сум</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div> <!-- Products -->
-            <div class="products">
-                <div class="img">
-                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
-                </div>
-                <div class="products_text">
-                    <p>Еда | Fast-food</p>
-                    <div class="products_partner">
-                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
-                        <h3>SFC</h3>
+            </div> <!-- Card -->
+            <div class="card">
+                <div class="img" style="position: relative;">
+                    <a href="restaurant.html" ><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
+                    <div class="logo_img">
+                        <img src="http://212.193.51.94/media/Shashlikuz_kfLQgcU.jpg">
                     </div>
                 </div>
-            </div> <!-- Products -->
-            <div class="products">
-                <div class="img">
-                    <a href="restaurant.html"><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
-                </div>
-                <div class="products_text">
+                <div class="card_text">
                     <p>Еда | Fast-food</p>
-                    <div class="products_partner">
-                        <img src="https://beeyor.tj/wp-content/uploads/2020/02/chicken-2.svg">
-                        <h3>SFC</h3>
+                    <h5 class="card_title" style="margin-left: 15px;">Shashlik Uz</h5>
+                    <div class="card_footer">
+                        <i class="far fa-star"></i><span style="margin-left: 7px;">4.4 (500+)</span>
+                        <div class="card_price">
+                            <div class="delivery" >
+                                <i class="fa fa-truck"></i>
+                                <h5>10 000 сум</h5>
+                            </div>
+                            <div class="discount">
+                                <h5 class="price">15 000 сум</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div> <!-- Products -->
-
+            </div> <!-- Card -->
+            <div class="card">
+                <div class="img" style="position: relative;">
+                    <a href="restaurant.html" ><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
+                    <div class="logo_img">
+                        <img src="http://212.193.51.94/media/Shashlikuz_kfLQgcU.jpg">
+                    </div>
+                </div>
+                <div class="card_text">
+                    <p>Еда | Fast-food</p>
+                    <h5 class="card_title" style="margin-left: 15px;">Shashlik Uz</h5>
+                    <div class="card_footer">
+                        <i class="far fa-star"></i><span style="margin-left: 7px;">4.4 (500+)</span>
+                        <div class="card_price">
+                            <div class="delivery" style="background-color: #e2e2e2;" >
+                                <i class="fa fa-truck"></i>
+                                <h5>10 000 сум</h5>
+                            </div>
+                            <div class="discount">
+                                <h5 class="price">15 000 сум</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Card -->
+            <div class="card">
+                <div class="img" style="position: relative;">
+                    <a href="restaurant.html" ><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
+                    <div class="logo_img">
+                        <img src="http://212.193.51.94/media/Shashlikuz_kfLQgcU.jpg">
+                    </div>
+                </div>
+                <div class="card_text">
+                    <p>Еда | Fast-food</p>
+                    <h5 class="card_title" style="margin-left: 15px;">Shashlik Uz</h5>
+                    <div class="card_footer">
+                        <i class="far fa-star"></i><span style="margin-left: 7px;">Мало отзывов</span>
+                        <div class="card_price">
+                            <div class="delivery" style="background-color: #FFF201" >
+                                <i class="fa fa-truck"></i>
+                                <h5>10 000 сум</h5>
+                            </div>
+                            <div class="discount" >
+                                <h5 class="price">15 000 сум</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Card -->
+            <div class="card">
+                <div class="img" style="position: relative;">
+                    <a href="restaurant.html" ><img src="https://beeyor.tj/wp-content/uploads/2021/04/citir-chicken-500x500.jpg" alt=""></a>
+                    <div class="logo_img">
+                        <img src="http://212.193.51.94/media/Shashlikuz_kfLQgcU.jpg">
+                    </div>
+                </div>
+                <div class="card_text">
+                    <p>Еда | Fast-food</p>
+                    <h5 class="card_title" style="margin-left: 15px;">Shashlik Uz</h5>
+                    <div class="card_footer">
+                        <i class="far fa-star"></i><span style="margin-left: 7px;">4.4 (500+)</span>
+                        <div class="card_price">
+                            <div class="delivery" style="background-color: #FFF201;" >
+                                <i class="fa fa-truck"></i>
+                                <h5>10 000 сум</h5>
+                            </div>
+                            <h5 class="price">15 000 сум</h5>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Card -->
             
+
         </div> <!-- Wrapper Item -->
         <div class="yest_programm">
             <div class="play_store">
@@ -340,7 +326,9 @@
             <div class="footer_top">
                 <div class="footer_info">
                     <div class="footer_logo">
-                        <a href="#">YEST.UZ</a>
+                        <a href="#">
+                            <img src="./assets/Logo.png" alt="">
+                        </a>
                     </div>
                     <p class="gray">Служба доставки в городе Самарканд. Доставим за считанные минуты</p>
                 </div>
@@ -360,10 +348,10 @@
                 </div>
 
                 <div class="footer_benefits">
-                    <h4>Наши преимущества</h4>
-                    <a class="gray" href="">Бонусы</a>
-                    <a class="gray" href="">Не платите лишнее</a>
-                    <a class="gray" href="">Заказы поступают прямо в ресторан</a>
+                    <h4>Наши контакты</h4>
+                    <a class="gray" href="">+998 90 123 45 67 Админ</a>
+                    <a class="gray" href="">+998 90 123 45 67 Админ</a>
+                    <a class="gray" href="">+998 90 123 45 67 Админ</a>
                     
                 </div>
             </div>
@@ -381,6 +369,7 @@
     </footer>
 
 
+    <!-- Top Icon -->
     <img class="Top_icon" src="https://beeyor.tj/wp-content/uploads/2020/01/back-to-top.svg">
 
 

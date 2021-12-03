@@ -1,7 +1,7 @@
 /* Restaurant */
 $('#res').hover(
     function () {
-        $('.bee_img').attr('style', 'transform:rotate(80deg); transition: 700ms;');
+        $('.bee_img').attr('style', 'transform:rotate(90deg); transition: 700ms;');
     },
     function () {
     $('.bee_img').attr('style', 'transform:rotate(0); transition: 700ms;');
@@ -10,7 +10,7 @@ $('#res').hover(
 /* Flower */
 $('#flow').hover(
     function () {
-        $('.bee_img').attr('style', 'transform:rotate(40deg); transition: 700ms;');
+        $('.bee_img').attr('style', 'transform:rotate(50deg); transition: 700ms;');
     },
     function () {
     $('.bee_img').attr('style', 'transform:rotate(0); transition: 700ms;');
@@ -19,7 +19,7 @@ $('#flow').hover(
 /* Shop */
 $('#shopping').hover(
     function () {
-        $('.bee_img').attr('style', 'transform:rotate(-85deg); transition: 700ms;');
+        $('.bee_img').attr('style', 'transform:rotate(-90deg); transition: 700ms;');
     },
     function () {
     $('.bee_img').attr('style', 'transform:rotate(0); transition: 700ms;');
